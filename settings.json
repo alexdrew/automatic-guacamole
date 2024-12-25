@@ -12,7 +12,7 @@
     "jupyter.askForKernelRestart": false,
     "jupyter.interactiveWindow.creationMode": "perFile",
     "jupyter.jupyterCommandLineArguments": [
-        "--notebook-dir=C:\\_dev\\daytrading"
+        "--notebook-dir=C:\\_dev"
     ],
     "jupyter.notebookFileRoot": "${workspaceFolder}",
     "jupyter.runStartupCommands": [
