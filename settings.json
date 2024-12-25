@@ -1,0 +1,48 @@
+setti{
+    "editor.minimap.enabled": false,
+ 
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+ 
+    "files.autoSave": "onFocusChange",
+    "files.exclude": {
+        "**/__pycache__": true
+    },
+ 
+    "jupyter.askForKernelRestart": false,
+    "jupyter.interactiveWindow.creationMode": "perFile",
+    "jupyter.jupyterCommandLineArguments": [
+        "--notebook-dir=C:\\_dev\\daytrading"
+    ],
+    "jupyter.notebookFileRoot": "${workspaceFolder}",
+    "jupyter.runStartupCommands": [
+        "%load_ext autoreload",
+        "%autoreload 2"
+    ],
+    
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.cacheLSPData": true,
+    "python.analysis.completeFunctionParens": true,
+    "python.analysis.diagnosticMode": "workspace",
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportMissingTypeStubs": "none"
+    },
+    "python.analysis.exclude": [
+        "**/site-packages/**",
+        "**/lib/**/site-packages/**",
+        "**/envs/trading/**",
+        "**/miniconda3/**",
+        
+        "_archive/**",
+        "**/audio/**",
+        "front_end/**",
+    ],
+    "python.analysis.typeCheckingMode": "strict",
+    
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.iconTheme": "eq-material-theme-icons-ocean",
+    "workbench.settings.applyToAllProfiles": [
+        
+
+    ],
+}
